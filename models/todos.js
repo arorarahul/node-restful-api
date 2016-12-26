@@ -1,3 +1,7 @@
+/* 
+	Table name 'todo' containing two columns description and completed
+*/
+
 module.exports = function(sequelize, DataTypes) {
 
 	return sequelize.define('todo', {

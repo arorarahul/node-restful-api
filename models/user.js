@@ -1,3 +1,8 @@
+/* 
+	Table name 'user' containing email along with password hashing
+*/
+
+
 var bcrypt = require("bcrypt");
 var _ = require("underscore");
 var jwt = require("jsonwebtoken");

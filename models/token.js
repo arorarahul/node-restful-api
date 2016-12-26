@@ -1,3 +1,9 @@
+/* 
+	Table name 'token' containing one column tokenHash for token bases authentication,
+	Field token is VIRTUAL types given be sequelize used for comparison purposes only
+*/
+
+
 var cryptojs = require("crypto-js");
 
 module.exports = function(sequelize, DataTypes){
