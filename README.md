@@ -9,3 +9,17 @@ This is a straight forward boiler plate to build Rest API with express and seque
 * cypto-js and jsonwebtoken to support token based authentication
 * sqlite3 and sequelize to support database integration
 
+## Getting started
+
+```javascript
+//git clone
+git clone https://github.com/arorarahul/node-restful-api.git
+
+//move to the required directory
+cd node-restful-api
+
+//install all the dependencies 
+npm install
+
+
+
