@@ -1,6 +1,6 @@
 # Node, Express and Sequelize Rest API Boilter plate with SQLITE Database
 
-This is a straight forward boiler plate to build Rest API with express and sequelize to connect and fetch data from SQLITE database.
+This is a straight forward boiler plate to build Rest API with express and sequelize to connect and fetch data from sqlite database.
 
 #### Third party node package managers used
 
