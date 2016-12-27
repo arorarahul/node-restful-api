@@ -1,13 +1,13 @@
-# Node, Express and Sequelize Rest API Boilter plate with Sqlite Database
+# Node, Express and Sequelize Rest API boiler plate with sqlite database
 
-This is a straight forward boiler plate to build Rest API with express and sequelize to connect and fetch data from sqlite database.
+This is a straight forward boiler plate to buildhttps://www.npmjs.com/package/body-parser Rest API with express and sequelize to connect and fetch data from sqlite database.
 
 #### Third party node package managers used
 
-* bcrypt to support password hashing for user authentication
-* Body parsing via body-parser
-* cypto-js and jsonwebtoken to support token based authentication
-* sqlite3 and sequelize to support database integration
+* [bcrypt](https://www.npmjs.com/package/bcrypt) to support password hashing for user authentication
+* Body parsing via [body-parser](https://www.npmjs.com/package/body-parser)
+* [cypto-js](https://www.npmjs.com/package/crypto-js) and [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken) to support token based authentication
+* [sqlite3](https://www.npmjs.com/package/sqlite3) and [sequelize](http://docs.sequelizejs.com/en/v3/) to support database integration
 
 ## Getting started
 
@@ -22,4 +22,22 @@ cd node-restful-api
 npm install
 
 
+### How ro run?
+
+```javascript
+//start server and build database schema
+node server.js
+
+//use postman or any other tool to access APIs namely
+
+//create user by passing 'email' and 'password' in json format
+POST localhost:3000/users
+
+//login user by passing 'email' and 'password' for created user. Save the auth token returned in the remaining
+//get, post and put calls
+POST localhost:3000/users/login
+
+//Pass auth token returned above as header in this call
+//create todos by passing 'description' and 'completed' (boolean) in this call as JSON
+POST localhost:3000/todos
 
