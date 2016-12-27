@@ -20,7 +20,7 @@ cd node-restful-api
 
 //install all the dependencies 
 npm install
-
+```
 
 ### How ro run?
 
@@ -40,4 +40,4 @@ POST localhost:3000/users/login
 //Pass auth token returned above as header in this call
 //create todos by passing 'description' and 'completed' (boolean) in this call as JSON
 POST localhost:3000/todos
-
+```
