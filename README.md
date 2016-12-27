@@ -38,7 +38,28 @@ POST localhost:3000/users
 //get, post and put calls
 POST localhost:3000/users/login
 
-//Pass auth token returned above as header in this call
+//Auth token required in headers with key 'Auth'
 //create todos by passing 'description' and 'completed' (boolean) in this call as JSON
 POST localhost:3000/todos
+
+//Auth token required in headers with key 'Auth'
+//GET user specific todos
+GET localhost:3000/todos
+
+//Auth token required in headers with key 'Auth'
+//GET user specific todos by todo id
+GET localhost:3000/todos/:id
+
+//Auth token required in headers with key 'Auth'
+//Update user specific todos by todo id
+PUT localhost:3000/todos/:id
+
+//Auth token required in headers with key 'Auth'
+//Delete user specific todos by todo id
+DELETE localhost:3000/todos/:id
+
+//Auth token required in headers with key 'Auth'
+//logout
+DELETE localhost:3000/user/login
 ```
+
