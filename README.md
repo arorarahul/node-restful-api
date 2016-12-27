@@ -1,4 +1,4 @@
-# Node, Express and Sequelize Rest API boiler plate with sqlite database
+#Node, Express and Sequelize Rest-API boiler plate with database
 
 This is a straight forward boiler plate to buildhttps://www.npmjs.com/package/body-parser Rest API with express and sequelize to connect and fetch data from sqlite database.
 
